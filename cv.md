@@ -6,7 +6,7 @@
 -----
 ### **HTML, CSS, GitHub, VSCode, JS;**
 -----
-### From the sample code there is only a site made following the example.
+### From the sample code there is only a site made following the example. 
 
 ```
 <!DOCTYPE html>
