@@ -1,1 +1,1 @@
-# rsschool-cv
+#  https://twistersd.github.io/rsschool-cv/
