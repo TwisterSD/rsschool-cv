@@ -1,13 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>CV2</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:wght@400;700&family=Play:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Artsiom Kupranovich</title>
 </head>
+
 <body>
-  <p>Artsiom Kupranovich CV2</p>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main main-container">
+        <section class="section" id="avatar">
+            <img class="avatar profile" src="/my_photo.jpg" alt="avatar">
+        </section>
+
+        <section class="section profile" id="profile">
+            <h1 class="section-title">Artsiom Kupranovich</h1>
+            <h2 class="section-article">Future Front-end developer</h2>
+        </section>
+
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <ul class="contacts-list">
+                <li class="contacts-link">City: Hrodna</li>
+                <li class="contacts-link">Email:<a class="footer-link link" href="Twistersd1995@gmail.com">
+                        Twistersd1995@gmail.com</a></li>
+                <li class="contacts-link">Github: @twistersd</li>
+                <li class="contacts-link">Telegram: @twistersd</li>
+                <li class="contacts-link">Discord: TwisterSD#7234</li>
+            </ul>
+        </section>
+
+        <section class="section" id="summary">
+            <h2>Summary</h2>
+            <p>Hello. I'm living in Hrodna, finished the university to the energy engineer, I'm working in the project company, but I realized that it was not mine. I didn't intersect in any way, the only one always loved iron. Here because the last half of the year I constantly have new acquaintances, who either go to this sphere themselves, or they have a bunch of acquaintances from IT.</p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <p>HTML, CSS, GitHub, VSCode, JS. And Adobe Photoshop, Adobe XD, Adobe Premiere</p>
+        </section>
+
+        <section class="section" id="code">
+            <h2>Code</h2>
+            <code>
+                let navToggle = $('#navToggle');<br>
+                let nav = $('nav');<br>
+
+                ('click', function(event) {<br>
+                event.preventDefault();<br>
+
+                $('body').toggleClass('show-nav');<br>
+                $(this).toggleClass('active');<br>
+                nav.toggleClass('show');<br>
+                });
+            </code>
+        </section>
+
+        <section class="section" id="courses">
+            <h2>Courses</h2>
+            <p>CS50 lectures</p>
+            <p>RSSchool stage0</p>
+            <p>RSSchool stage1 (half)</p>
+
+        </section>
+
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <a class="footer-link link" href="https://rolling-scopes-school.github.io/twistersd-JSFE2022Q1/shelter/pages/main/">Shelter</a>
+        </section>
+
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <a class="link" href="https://www.edu.gstu.by/">Higher GSTU - Energy Engineer</a>
+        </section>
+
+        <section class="section" id="english">
+            <h2>English</h2>
+            Level A2+, often write to my foreign friends.
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+            <ul class="footer-content">
+                <li>
+                    <p class="footer-link_data">&#169; 2022 </p>
+                </li>
+
+                <li>
+                    <a class="footer-link link" href="https://github.com/TwisterSD">@TwisterSD</a>
+                </li>
+        </div>
+
+        <div class="container">
+            <ul class="footer-content">
+                <li>
+                    <a href="https://rs.school/js/"><img class="logo" src="/logo_rs_school.svg" alt="logo"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
+
 </html>
